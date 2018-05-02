@@ -58,12 +58,12 @@
 		8F63EACB2098F696007B4504 /* PitchPerfetct */ = {
 			isa = PBXGroup;
 			children = (
-				8F63EACC2098F696007B4504 /* AppDelegate.swift */,
-				8F63EACE2098F696007B4504 /* RecordSoundsViewController.swift */,
 				8F63EAD02098F696007B4504 /* Main.storyboard */,
 				8F63EAD32098F696007B4504 /* Assets.xcassets */,
 				8F63EAD52098F696007B4504 /* LaunchScreen.storyboard */,
 				8F63EAD82098F696007B4504 /* Info.plist */,
+				8F63EACC2098F696007B4504 /* AppDelegate.swift */,
+				8F63EACE2098F696007B4504 /* RecordSoundsViewController.swift */,
 				8FFF72792099A8F200267949 /* PlaySoundsViewController.swift */,
 				8F4F284D2099F6C100BA47B4 /* PlaySoundsViewController+Audio.swift */,
 			);
@@ -289,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NKZVWJJVGE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PitchPerfetct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NKZVWJJVGE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PitchPerfetct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

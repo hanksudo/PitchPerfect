@@ -11,11 +11,15 @@ import AVFoundation
 
 class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
-    var audioRecorder: AVAudioRecorder!
-    
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopRecordingButton: UIButton!
+    
+    var audioRecorder: AVAudioRecorder!
+    
+    // MARK: RecordingState
+    
+    enum RecordingState { case recording, notRecording }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +27,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func recordAudio(_ sender: Any) {
-        recordingLabel.text = "Recording in Progrss"
-        stopRecordingButton.isEnabled = true
-        recordButton.isEnabled = false
+        configureUI(.recording)
         
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
         let recordingName = "recordedVoice.wav"
@@ -43,9 +45,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        recordButton.isEnabled = true
-        stopRecordingButton.isEnabled = false
-        recordingLabel.text = "Tap to Record"
+        configureUI(.notRecording)
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
@@ -65,6 +65,14 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             let recordedAudioURL = sender as! URL
             playSoundsVC.recordedAudioURL = recordedAudioURL
         }
+    }
+    
+    // MARK: UI Functions
+    
+    func configureUI(_ recordingState: RecordingState) {
+        recordButton.isEnabled = (recordingState != .recording)
+        stopRecordingButton.isEnabled = (recordingState == .recording)
+        recordingLabel.text = (recordingState != .recording) ? "Tap to Record" : "Recording in Progrss"
     }
 
 }
