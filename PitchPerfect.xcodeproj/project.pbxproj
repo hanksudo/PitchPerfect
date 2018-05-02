@@ -42,7 +42,7 @@
 		8F63EAC02098F696007B4504 = {
 			isa = PBXGroup;
 			children = (
-				8F63EACB2098F696007B4504 /* PitchPerfetct */,
+				8F63EACB2098F696007B4504 /* PitchPerfect */,
 				8F63EACA2098F696007B4504 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F63EACB2098F696007B4504 /* PitchPerfetct */ = {
+		8F63EACB2098F696007B4504 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
 				8F63EAD02098F696007B4504 /* Main.storyboard */,
@@ -67,7 +67,7 @@
 				8FFF72792099A8F200267949 /* PlaySoundsViewController.swift */,
 				8F4F284D2099F6C100BA47B4 /* PlaySoundsViewController+Audio.swift */,
 			);
-			path = PitchPerfetct;
+			path = PitchPerfect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanksudo.PitchPerfetct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanksudo.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanksudo.PitchPerfetct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanksudo.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
