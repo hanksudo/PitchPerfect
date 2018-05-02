@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		8F4F284D2099F6C100BA47B4 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
-		8F63EAC92098F696007B4504 /* PitchPerfetct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfetct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F63EAC92098F696007B4504 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F63EACC2098F696007B4504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F63EACE2098F696007B4504 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		8F63EAD12098F696007B4504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		8F63EACA2098F696007B4504 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F63EAC92098F696007B4504 /* PitchPerfetct.app */,
+				8F63EAC92098F696007B4504 /* PitchPerfect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F63EAC82098F696007B4504 /* PitchPerfetct */ = {
+		8F63EAC82098F696007B4504 /* PitchPerfect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F63EADB2098F696007B4504 /* Build configuration list for PBXNativeTarget "PitchPerfetct" */;
+			buildConfigurationList = 8F63EADB2098F696007B4504 /* Build configuration list for PBXNativeTarget "PitchPerfect" */;
 			buildPhases = (
 				8F63EAC52098F696007B4504 /* Sources */,
 				8F63EAC62098F696007B4504 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PitchPerfetct;
+			name = PitchPerfect;
 			productName = PitchPerfetct;
-			productReference = 8F63EAC92098F696007B4504 /* PitchPerfetct.app */;
+			productReference = 8F63EAC92098F696007B4504 /* PitchPerfect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F63EAC42098F696007B4504 /* Build configuration list for PBXProject "PitchPerfetct" */;
+			buildConfigurationList = 8F63EAC42098F696007B4504 /* Build configuration list for PBXProject "PitchPerfect" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F63EAC82098F696007B4504 /* PitchPerfetct */,
+				8F63EAC82098F696007B4504 /* PitchPerfect */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F63EAC42098F696007B4504 /* Build configuration list for PBXProject "PitchPerfetct" */ = {
+		8F63EAC42098F696007B4504 /* Build configuration list for PBXProject "PitchPerfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F63EAD92098F696007B4504 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F63EADB2098F696007B4504 /* Build configuration list for PBXNativeTarget "PitchPerfetct" */ = {
+		8F63EADB2098F696007B4504 /* Build configuration list for PBXNativeTarget "PitchPerfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F63EADC2098F696007B4504 /* Debug */,
