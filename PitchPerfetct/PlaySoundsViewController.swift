@@ -10,6 +10,21 @@ import UIKit
 
 class PlaySoundsViewController: UIViewController {
     
-    var recordedAudoURL: URL!
+    @IBOutlet weak var slowButton: UIButton!
+    @IBOutlet weak var fastButton: UIButton!
+    @IBOutlet weak var highPitchButton: UIButton!
+    @IBOutlet weak var lowPitchButton: UIButton!
+    @IBOutlet weak var echoButton: UIButton!
+    @IBOutlet weak var reverbButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
     
+    var recordedAudoURL: URL!
+ 
+    @IBAction func playSoundForButton(_ sender: UIButton) {
+        print("play")
+    }
+    
+    @IBAction func stopButtonPressed(_ sender: Any) {
+        print("stop")
+    }
 }
