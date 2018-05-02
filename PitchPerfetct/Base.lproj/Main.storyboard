@@ -99,14 +99,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6Tl-o0-8Bg">
                                         <rect key="frame" x="0.0" y="171.5" width="343" height="172"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egt-q0-KLK" userLabel="High Pitch Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egt-q0-KLK" userLabel="Chipmunk Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="172"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="QHm-79-tYJ" eventType="touchUpInside" id="rIS-hD-gVK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMg-Zx-FR9" userLabel="Low Pitch Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMg-Zx-FR9" userLabel="Vader Button">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="172"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
@@ -160,13 +160,13 @@
                         <viewLayoutGuide key="safeArea" id="hkq-D0-IIL"/>
                     </view>
                     <connections>
+                        <outlet property="chipmunkButton" destination="Egt-q0-KLK" id="g6K-da-Ykk"/>
                         <outlet property="echoButton" destination="gry-SL-hmz" id="WBb-0O-fSo"/>
                         <outlet property="fastButton" destination="L4H-o5-QyY" id="NpY-vu-Q8b"/>
-                        <outlet property="highPitchButton" destination="Egt-q0-KLK" id="law-eS-hYM"/>
-                        <outlet property="lowPitchButton" destination="mMg-Zx-FR9" id="I1k-ss-238"/>
                         <outlet property="reverbButton" destination="Rz2-8g-MXI" id="gVR-3v-k3t"/>
                         <outlet property="slowButton" destination="c9X-yT-Pvb" id="RNk-qq-JAO"/>
                         <outlet property="stopButton" destination="Qwc-if-KhE" id="yyO-fG-wJp"/>
+                        <outlet property="vaderButton" destination="mMg-Zx-FR9" id="u7D-lO-Dwh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ov-xV-zWd" userLabel="First Responder" sceneMemberID="firstResponder"/>
